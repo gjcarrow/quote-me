@@ -29,7 +29,11 @@ The quoteMe.css file contains the animation style rules if you like the animatio
 
 I'm responsible for the code
 
+## Release history
+
+- 1.0.0
+  - Initial Release
+
 ## License
 
-Don't know much about licenses yet, but anyone can use my code wherever or however
-you'd like, and I'd consider it flattering.
+MIT

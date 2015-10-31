@@ -1,0 +1,25 @@
+{
+  "name": "quote-me",
+  "version": "1.0.0",
+  "description": "A random quote generator",
+  "main": "quoteMe.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gjcarrow/quote-me.git"
+  },
+  "keywords": [
+    "quote",
+    "generator",
+    "plugin",
+    "quote-me"
+  ],
+  "author": "gjcarrow <https://github.com/gjcarrow>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gjcarrow/quote-me/issues"
+  },
+  "homepage": "https://github.com/gjcarrow/quote-me#readme"
+}

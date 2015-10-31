@@ -1,6 +1,6 @@
 # Quote Me
 
-A random quote generator you can stick anywhere on your page if you're so inclined.
+A random quote generator you can stick anywhere on your page if you're so inclined. [Check it out](http://gjcarrow.github.io/quote-me/)
 
 ## Installation
 

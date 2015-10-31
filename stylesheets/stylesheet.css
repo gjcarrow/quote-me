@@ -245,3 +245,137 @@ a {
 .cf {
   zoom:1;
 }
+@import url(https://fonts.googleapis.com/css?family=Courgette);
+* {
+  box-sizing: border-box;
+}
+body {
+  background: #3f3f3f;
+  color:#1f1f1f;
+  font-family: 'Courgette';
+  padding: 0;
+  margin:0;
+}
+#quoteWrap {
+  position: relative;
+  top: 0;
+  margin: 0;
+  left: 0;
+  width: 100%;
+  min-height: 300px;
+  transition:all 1s linear;
+  padding: 25px 50px;
+  /*background:#b1b1b1;*/
+}
+#quoteGenerator button {
+  display: block;
+  width: 150px;
+  height: 50px;
+  margin:50px auto;
+  border:none;
+  outline: none;
+  background: #0f0f0f;
+  color:#5f5f5f;
+  border-bottom:1px solid rgba(33,33,33,1);
+  box-shadow: 0px 8px 0px rgba(0,0,0,.7);
+  border-radius: 20px;
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: 100;
+  cursor:pointer;
+  transition:all .2s ease-out;
+}
+#quoteGenerator button.pressed {
+  box-shadow:none;
+  transform:translateY(8px);
+}
+hr {
+  border:none;
+  border-top: 1px solid #0f0f0f;
+  border-bottom: 1px solid #5f5f5f;
+  margin: 0;
+}
+#quoteGenerator h1 {
+  text-align: center;
+  min-height: 24px;
+  margin:0;
+  vertical-align: middle;
+}
+#quoteGenerator h2 {
+  min-height: 17px;
+  font-variant: small-caps;
+  text-align: center;
+  position: relative;
+  margin:0;
+  top: 0px;
+  opacity: 1;
+  transition: all 1s ease-out;
+}
+#quoteGenerator h2:before {
+  content: "—";
+}
+#quoteGenerator h2.fallen {
+  opacity: 0;
+  top:200px;
+}
+#wordWrap.faded{
+  animation-name: slideUp;
+  -webkit-animation-name: slideUp;  
+
+  animation-duration: 1s; 
+  -webkit-animation-duration: 1s;
+
+  animation-timing-function: ease;  
+  -webkit-animation-timing-function: ease;
+
+  visibility: visible !important;     
+}
+
+@keyframes slideUp {
+  0% {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+  25% {
+    opacity: .5;
+  }
+  50%{
+    transform: translateY(-8%);
+  }
+  65%{
+    transform: translateY(4%);
+  }
+  80%{
+    transform: translateY(-4%);
+  }
+  95%{
+    transform: translateY(2%);
+  }     
+  100% {
+    transform: translateY(0%);
+    opacity: 1;
+  } 
+}
+
+@-webkit-keyframes slideUp {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(100%);
+  }
+  50%{
+    -webkit-transform: translateY(-8%);
+  }
+  65%{
+    -webkit-transform: translateY(4%);
+  }
+  80%{
+    -webkit-transform: translateY(-4%);
+  }
+  95%{
+    -webkit-transform: translateY(2%);
+  }     
+  100% {
+    -webkit-transform: translateY(0%);
+    opacity: 1;
+  } 
+}
